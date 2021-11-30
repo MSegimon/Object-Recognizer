@@ -1,29 +1,39 @@
 import io
-import os
 
-# Imports the Google Cloud client library
-from google.cloud import vision
+from credentials.setGoogleCredentials import setGoogleCredentials
 
-# Instantiates a client
-client = vision.ImageAnnotatorClient()
+def FindObjects(path):
+    """Finds all the objects in the image at the given path
+    
+    Args:
+    path: path to image file
+    """
 
-# The name of the image file to annotate
-file_name = os.path.abspath('TestImages/LivingRoom1.jpeg')
+    #Set google credentials
+    from credentials.setGoogleCredentials import setGoogleCredentials
+    setGoogleCredentials()
 
-# Loads the image into memory
-with io.open(file_name, 'rb') as image_file:
-    content = image_file.read()
+    # Instantiates a client and reads image from path
+    from google.cloud import vision
+    client = vision.ImageAnnotatorClient()
 
-image = vision.Image(content=content)
+    try:
+        with io.open(path, 'rb') as image_file:
+            content = image_file.read()
+    except:
+        print("Error opening file")
+        return
+    image = vision.Image(content=content)
 
-# Performs label detection on the image file
-response = client.label_detection(image=image)
-labels = response.label_annotations
-print(labels)
+    #Get objects from image
+    objects = client.object_localization(image=image).localized_object_annotations
 
-""" labels = response.label_annotations
+    """     for object_ in objects:
+        print(object_.name)
+        print(object_.score)
+        print(object_.bounding_poly.normalized_vertices)
+    """
+    
+    return objects
 
-print('Labels:')
-for label in labels:
-    print(label.description)
- """
+#FindObjects('TestImages/LivingRoom1.jpeg')
