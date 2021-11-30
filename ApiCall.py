@@ -1,7 +1,5 @@
 import io
 
-from credentials.setGoogleCredentials import setGoogleCredentials
-
 def FindObjects(path):
     """Finds all the objects in the image at the given path
     
