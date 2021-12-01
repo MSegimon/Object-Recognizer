@@ -12,19 +12,19 @@ def main(path):
     #Print the objects
     for object in objects:
         if object.HasGoodConfidence():
-            print("There is a " + object.GetName() + " to your ")
+            print("There is a " + object.GetName() + " to your ", end="")
         else:
-            print("There is an unknown object to your ")
+            print("There is an unknown object to your ", end="")
 
         pos = object.GetRelativePosition()
         if pos == Object.Direction.LEFT:
             print("left")
         elif pos == Object.Direction.SLIGHT_LEFT:
-            print("slightly left")
+            print("slight left")
         elif pos == Object.Direction.RIGHT:
             print("right")
         elif pos == Object.Direction.SLIGHT_RIGHT:
-            print("slightly right")
+            print("slight right")
         elif pos == Object.Direction.CENTER:
             print("center")
 
