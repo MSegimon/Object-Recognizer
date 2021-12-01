@@ -4,6 +4,9 @@ import ApiCall
 
 
 class Direction(Enum):
+    """
+    Enum for the cardinal directions in the image.
+    """
     RIGHT = 1,
     SLIGHT_RIGHT = 2,
     CENTER = 3,
@@ -25,6 +28,7 @@ class Object():
     def GetRelativePosition(self):
         """
         Returns position relative to the position of the camera
+
         :return: The relative position of the object.
         """
 
@@ -70,4 +74,14 @@ def GetRelativeObjectPositions(path):
     
 
 if __name__ == '__main__':
-    GetRelativeObjectPositions("TestImages/LivingRoom1.jpeg")
+
+    from betterImage import enhance
+    path = "TestImages/LivingRoom1.jpeg"
+    enhance(path)
+
+    objects = GetRelativeObjectPositions("enhanced/" + path)
+
+    for object in objects:
+        print(object.objectType)
+        print(object.confidence)
+        print(object.GetRelativePosition())      
