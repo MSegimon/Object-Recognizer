@@ -1,7 +1,6 @@
 from enum import Enum
 
-import ApiCall
-
+from ApiCall import FindObjects
 
 class Direction(Enum):
     """
@@ -46,10 +45,25 @@ class Object():
             return Direction.SLIGHT_RIGHT
         elif center > 0.8 and center <= 1:
             return Direction.RIGHT
-        
+
+    def HasGoodConfidence(self):
+        """
+        Returns true if the object has a good confidence.
+
+        :return: True if the object has a good confidence.
+        """
+        return self.confidence > 0.5
+
+    def GetName(self):
+        """
+        Returns the name of the object.
+
+        :return: The name of the object.
+        """
+        return self.objectType
 
 
-def GetRelativeObjectPositions(path):
+def GetObjects(path):
     """
     Outputs the a list of the objects found in the image.
 
@@ -58,30 +72,11 @@ def GetRelativeObjectPositions(path):
     """
 
     #Generate list of objects
-    resultObjects = ApiCall.FindObjects(path)
+    resultObjects = FindObjects(path)
     objects = []
     for object in resultObjects:
         objects.append(Object(object.bounding_poly.normalized_vertices, object.name, object.score))
 
     #Filter objects
-    for object in objects:
-        if object.confidence < 0.5:
-            objects.remove(object)
 
-    return objects
-
-
-    
-
-if __name__ == '__main__':
-
-    from betterImage import enhance
-    path = "TestImages/LivingRoom1.jpeg"
-    enhance(path)
-
-    objects = GetRelativeObjectPositions("enhanced/" + path)
-
-    for object in objects:
-        print(object.objectType)
-        print(object.confidence)
-        print(object.GetRelativePosition())      
+    return objects  

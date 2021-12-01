@@ -22,4 +22,4 @@ def enhance(path):
     enhancer = ImageEnhance.Brightness(img)
     img = enhancer.enhance(0.75)    
 
-    img.save("enhanced/" + path)
+    img.save(path)
