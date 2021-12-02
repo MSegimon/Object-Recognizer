@@ -41,7 +41,8 @@ app = Flask(__name__)
 
 runFiles = 'runFiles/'
 
-@app.route('/', methods=['GET', 'POST'])
+from credentials.serverCredentials import serverFolder
+@app.route('/' + serverFolder, methods=['GET', 'POST'])
 def root():
 	if request.method == 'POST':
 		f = request.files['image']  # THIS GETS THE IMAGE FROM THE REQUEST
