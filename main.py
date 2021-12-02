@@ -1,3 +1,6 @@
+from time import sleep, time
+from flask import Flask, request
+
 import Object
 from betterImage import enhance
 
@@ -9,28 +12,52 @@ def main(path):
     #Get objects in the image
     objects = Object.GetObjects(path)
 
-    #Print the objects
+    #Create string that will be sent to the client
+    output = ""
     for object in objects:
         if object.HasGoodConfidence():
-            print("There is a " + object.GetName() + " to your ", end="")
+            output += "There is a " + object.GetName() + " to your "
         else:
-            print("There is an unknown object to your ", end="")
+            output += "There is an unknown object to your "
 
         pos = object.GetRelativePosition()
         if pos == Object.Direction.LEFT:
-            print("left")
+            output += ("left. ")
         elif pos == Object.Direction.SLIGHT_LEFT:
-            print("slight left")
+            output += ("slight left. ")
         elif pos == Object.Direction.RIGHT:
-            print("right")
+            output += ("right. ")
         elif pos == Object.Direction.SLIGHT_RIGHT:
-            print("slight right")
+            output += ("slight right. ")
         elif pos == Object.Direction.CENTER:
-            print("center")
+            output += ("center. ")
+
+    #Return string to client
+    return output
 
 
+#Create the flask app
+app = Flask(__name__)
 
-if __name__ == '__main__':
+runFiles = 'runFiles/'
+
+
+@app.route('/', methods=['GET', 'POST'])
+def root():
+	if request.method == 'POST':
+		f = request.files['image']  # THIS GETS THE IMAGE FROM THE REQUEST
+		f.save(runFiles + 'received.jpg')
+
+        #Call main function
+		string = main(runFiles + 'received.jpg')
+		return string
+	else:
+		return 'Hello, World!'
+
+
+app.run(host='0.0.0.0')
+
+""" if __name__ == '__main__':
     #For testing purposes we duplicate the image and run the program on the duplicate
     import os
     image = "LivingRoom2.jpg"
@@ -40,4 +67,4 @@ if __name__ == '__main__':
     main("Duplicate" + image)
 
     #Delete the duplicate image after testing
-    os.system("rm Duplicate" + image)
+    os.system("rm Duplicate" + image) """
