@@ -1,6 +1,6 @@
 # Object-Recognizer
 
-## Libraries to install
+## Libraries to install server side
 - Flask
 - Pillow
 - google-cloud-vision
