@@ -41,8 +41,8 @@ app = Flask(__name__)
 
 runFiles = 'runFiles/'
 
-
-@app.route('/', methods=['GET', 'POST'])
+from credentials.serverCredentials import serverFolder
+@app.route('/' + serverFolder, methods=['GET', 'POST'])
 def root():
 	if request.method == 'POST':
 		f = request.files['image']  # THIS GETS THE IMAGE FROM THE REQUEST
@@ -56,15 +56,3 @@ def root():
 
 
 app.run(host='0.0.0.0')
-
-""" if __name__ == '__main__':
-    #For testing purposes we duplicate the image and run the program on the duplicate
-    import os
-    image = "LivingRoom2.jpg"
-    os.system("cp TestImages/" + image + " Duplicate" + image)
-
-    #Run the program
-    main("Duplicate" + image)
-
-    #Delete the duplicate image after testing
-    os.system("rm Duplicate" + image) """
