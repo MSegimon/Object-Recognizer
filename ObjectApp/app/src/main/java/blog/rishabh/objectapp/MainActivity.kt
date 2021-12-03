@@ -1,6 +1,7 @@
 package blog.rishabh.objectapp
 
 import android.app.Activity
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -16,8 +17,8 @@ class MainActivity : AppCompatActivity() {
 
     var handler: Handler = Handler()
     var runnable: Runnable? = null
-    private var delay = 1000 // Delay in seconds / 1000
-    private var test = 1
+    var delay = 1000 // Delay in seconds / 1000
+    var test = 1
 
     companion object {
         private const val REQUEST_CODE_STT = 1
