@@ -1,6 +1,3 @@
-from time import sleep, time
-from flask import Flask, request
-
 import Object
 from betterImage import enhance
 
@@ -36,23 +33,8 @@ def main(path):
     return output
 
 
-#Create the flask app
-app = Flask(__name__)
+runFiles = 'TestImages/'
 
-runFiles = 'runFiles/'
-
-from credentials.serverCredentials import serverFolder
-@app.route('/' + serverFolder, methods=['GET', 'POST'])
-def root():
-	if request.method == 'POST':
-		f = request.files['image']  # THIS GETS THE IMAGE FROM THE REQUEST
-		f.save(runFiles + 'received.jpg')
-
-        #Call main function
-		string = main(runFiles + 'received.jpg')
-		return string
-	else:
-		return 'Hello, World!'
-
-
-app.run(host='0.0.0.0')
+if __name__ == '__main__':
+    string = main(runFiles + 'LivingRoom2.jpg')
+    print(string)
