@@ -8,7 +8,7 @@ imagePath = 'TestImages/LivingRoom2.jpg'
 
 def sendImage(imagePath):
 	files = {'image': open(imagePath, 'rb')}
-	x = requests.post(url, files=files)
+	x = requests.post(url, files=files, verify=False)
 	return x.text
 
 if __name__ == '__main__':

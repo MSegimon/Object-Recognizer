@@ -55,4 +55,5 @@ def root():
 		return 'Hello, World!'
 
 
-app.run(host='0.0.0.0')
+from credentials.serverCredentials import ssl_path
+app.run(host='0.0.0.0', ssl_context=ssl_path)
