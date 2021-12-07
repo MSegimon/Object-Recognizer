@@ -45,10 +45,10 @@ runFiles = 'runFiles/'
 from credentials.serverCredentials import serverFolder
 @app.route('/' + serverFolder, methods=['GET', 'POST'])
 def root():
-    if request.method == 'GET':
+    if request.method == 'POST':
         #Get the image from the client
         with open(runFiles + 'received.jpg', 'wb') as f:
-            f.write(base64.b64decode(request.files['image64'].read()))
+            f.write(base64.b64decode(request.form['image64']))
 
         #Call main function
         string = main(runFiles + 'received.jpg')
