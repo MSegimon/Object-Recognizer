@@ -2,8 +2,6 @@ import requests
 from time import time, sleep
 import base64
 
-from werkzeug.datastructures import Headers
-
 from credentials.serverCredentials import serverIP, serverFolder
 url = serverIP + serverFolder
 imagePath = 'TestImages/LivingRoom2.jpg'
