@@ -1,5 +1,6 @@
 from time import sleep, time
 from flask import Flask, request
+import base64
 
 import Object
 from betterImage import enhance
@@ -44,15 +45,17 @@ runFiles = 'runFiles/'
 from credentials.serverCredentials import serverFolder
 @app.route('/' + serverFolder, methods=['GET', 'POST'])
 def root():
-	if request.method == 'POST':
-		f = request.files['image']  # THIS GETS THE IMAGE FROM THE REQUEST
-		f.save(runFiles + 'received.jpg')
+    if request.method == 'GET':
+        #Get the image from the client
+        with open(runFiles + 'received.jpg', 'wb') as f:
+            f.write(base64.b64decode(request.files['image64'].read()))
 
         #Call main function
-		string = main(runFiles + 'received.jpg')
-		return string
-	else:
-		return 'Hello, World!'
+        string = main(runFiles + 'received.jpg')
+        return string
+    else:
+        return 'Hello, World!'
 
 
+from credentials.serverCredentials import ssl_path
 app.run(host='0.0.0.0')
