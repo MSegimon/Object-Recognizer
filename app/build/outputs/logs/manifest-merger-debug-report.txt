@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+MERGED from [androidx.core:core-ktx:1.3.2] /home/hyron/.gradle/caches/transforms-3/21517a4eb3370ab231b82cb0bb098386/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.3.0] /home/hyron/.gradle/caches/transforms-3/4a3c4a60ea08ae0d4dcb9b792252c177/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/hyron/.gradle/caches/transforms-3/e844fe1bd2935f6d1daba61a45f7a27b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/hyron/.gradle/caches/transforms-3/c92a06c72cd528bcb2f28c67cadc947c/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/hyron/.gradle/caches/transforms-3/c77fc001d5ec1ea530c1727ca9d29f6b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hyron/.gradle/caches/transforms-3/baa034b68fe84f6a4e69bb110d248e0e/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/hyron/.gradle/caches/transforms-3/39e67d7a87b39e8ac112963b35db302a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hyron/.gradle/caches/transforms-3/b62058be278ea1eee86e7612643bf1fa/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/hyron/.gradle/caches/transforms-3/e32651178bc202387bbbef648d8a63de/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/hyron/.gradle/caches/transforms-3/ab33017bac75ca4b41e0c67747857a4b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/hyron/.gradle/caches/transforms-3/8f1df7e728fdc6b1cc178e056db5cb21/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hyron/.gradle/caches/transforms-3/20c9d3b06906465fd88bb1cb12cc45a4/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hyron/.gradle/caches/transforms-3/483cfb5a6e073e761abfd686d3342370/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hyron/.gradle/caches/transforms-3/8bb4f63f29b1a06f518ac6206bec20df/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hyron/.gradle/caches/transforms-3/0542d6728b46e68abbf54a2196313713/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hyron/.gradle/caches/transforms-3/b6d006d7277797bfa785bc4db96d4ca8/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/hyron/.gradle/caches/transforms-3/33b66ad4eaa0aca726e7ddca46745793/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/hyron/.gradle/caches/transforms-3/26dd8c7b2918c91a90477f27c46ed157/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/hyron/.gradle/caches/transforms-3/46e2cf9ac4180ca80be7dec38e8ea2d7/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /home/hyron/.gradle/caches/transforms-3/4206b022f6dc9636f0dc8d4179782835/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hyron/.gradle/caches/transforms-3/2b6762de07e03c070ebf363b2b18d6e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hyron/.gradle/caches/transforms-3/8aaf698ef722fffc402a63f7386dac05/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hyron/.gradle/caches/transforms-3/8b331515101167231e0bf16b4827ee44/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hyron/.gradle/caches/transforms-3/555236044442a6b601be96510848bd16/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hyron/.gradle/caches/transforms-3/241bf0b0fab43645c1b29a1cb6bf61c4/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hyron/.gradle/caches/transforms-3/53a9e01678c3c123f98c3024a8032788/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hyron/.gradle/caches/transforms-3/e560ce8c3ecc8583efef93c2b780b83e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hyron/.gradle/caches/transforms-3/98abd5e1b08e4a1aba52ed81ec385b8b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hyron/.gradle/caches/transforms-3/a3069b0cb7bf77d0867ce0b7cd7f4984/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/hyron/.gradle/caches/transforms-3/084d9626b7e6e1bb6f4b7736011c1b83/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hyron/.gradle/caches/transforms-3/745d99baf50ddb72427668d2b2309cb1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hyron/.gradle/caches/transforms-3/631d61d77a0d44b4ef3c60fdb41226e3/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hyron/.gradle/caches/transforms-3/6acf815d725ba197ea9d80c20a79eab5/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/hyron/.gradle/caches/transforms-3/5691d0ae1c15c0a3d80d2b0eb6309d33/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:3:5-50
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:6:22-64
+uses-feature#android.hardware.camera
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:8:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:9:19-67
+queries
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:11:5-15:15
+intent#action:name:android.intent.action.TTS_SERVICE
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:12:9-14:18
+action#android.intent.action.TTS_SERVICE
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:13:21-69
+supports-screens
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:17:5-19:67
+	android:largeScreens
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:17:23-50
+	android:smallScreens
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:19:9-36
+	android:normalScreens
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:18:9-37
+	android:xlargeScreens
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:19:37-65
+application
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:20:5-42:19
+MERGED from [com.google.android.material:material:1.3.0] /home/hyron/.gradle/caches/transforms-3/4a3c4a60ea08ae0d4dcb9b792252c177/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/hyron/.gradle/caches/transforms-3/4a3c4a60ea08ae0d4dcb9b792252c177/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/hyron/.gradle/caches/transforms-3/e844fe1bd2935f6d1daba61a45f7a27b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/hyron/.gradle/caches/transforms-3/e844fe1bd2935f6d1daba61a45f7a27b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] /home/hyron/.gradle/caches/transforms-3/4206b022f6dc9636f0dc8d4179782835/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/hyron/.gradle/caches/transforms-3/4206b022f6dc9636f0dc8d4179782835/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hyron/.gradle/caches/transforms-3/8b331515101167231e0bf16b4827ee44/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hyron/.gradle/caches/transforms-3/8b331515101167231e0bf16b4827ee44/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /home/hyron/.gradle/caches/transforms-3/4206b022f6dc9636f0dc8d4179782835/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:27:9-61
+	android:networkSecurityConfig
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:24:9-69
+activity#com.example.livecamerafootagekotlin.MainActivity
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:28:9-31:39
+	android:exported
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:29:13-41
+activity#com.example.livecamerafootagekotlin.SplashScreenActivity
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:35:13-36
+	android:theme
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:34:13-69
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:33:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.2] /home/hyron/.gradle/caches/transforms-3/21517a4eb3370ab231b82cb0bb098386/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/hyron/.gradle/caches/transforms-3/21517a4eb3370ab231b82cb0bb098386/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.3.0] /home/hyron/.gradle/caches/transforms-3/4a3c4a60ea08ae0d4dcb9b792252c177/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/hyron/.gradle/caches/transforms-3/4a3c4a60ea08ae0d4dcb9b792252c177/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/hyron/.gradle/caches/transforms-3/e844fe1bd2935f6d1daba61a45f7a27b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/hyron/.gradle/caches/transforms-3/e844fe1bd2935f6d1daba61a45f7a27b/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/hyron/.gradle/caches/transforms-3/c92a06c72cd528bcb2f28c67cadc947c/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/hyron/.gradle/caches/transforms-3/c92a06c72cd528bcb2f28c67cadc947c/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/hyron/.gradle/caches/transforms-3/c77fc001d5ec1ea530c1727ca9d29f6b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/hyron/.gradle/caches/transforms-3/c77fc001d5ec1ea530c1727ca9d29f6b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hyron/.gradle/caches/transforms-3/baa034b68fe84f6a4e69bb110d248e0e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/hyron/.gradle/caches/transforms-3/baa034b68fe84f6a4e69bb110d248e0e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/hyron/.gradle/caches/transforms-3/39e67d7a87b39e8ac112963b35db302a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/hyron/.gradle/caches/transforms-3/39e67d7a87b39e8ac112963b35db302a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hyron/.gradle/caches/transforms-3/b62058be278ea1eee86e7612643bf1fa/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hyron/.gradle/caches/transforms-3/b62058be278ea1eee86e7612643bf1fa/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/hyron/.gradle/caches/transforms-3/e32651178bc202387bbbef648d8a63de/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/hyron/.gradle/caches/transforms-3/e32651178bc202387bbbef648d8a63de/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/hyron/.gradle/caches/transforms-3/ab33017bac75ca4b41e0c67747857a4b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/hyron/.gradle/caches/transforms-3/ab33017bac75ca4b41e0c67747857a4b/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/hyron/.gradle/caches/transforms-3/8f1df7e728fdc6b1cc178e056db5cb21/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/hyron/.gradle/caches/transforms-3/8f1df7e728fdc6b1cc178e056db5cb21/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hyron/.gradle/caches/transforms-3/20c9d3b06906465fd88bb1cb12cc45a4/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hyron/.gradle/caches/transforms-3/20c9d3b06906465fd88bb1cb12cc45a4/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hyron/.gradle/caches/transforms-3/483cfb5a6e073e761abfd686d3342370/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hyron/.gradle/caches/transforms-3/483cfb5a6e073e761abfd686d3342370/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hyron/.gradle/caches/transforms-3/8bb4f63f29b1a06f518ac6206bec20df/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hyron/.gradle/caches/transforms-3/8bb4f63f29b1a06f518ac6206bec20df/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hyron/.gradle/caches/transforms-3/0542d6728b46e68abbf54a2196313713/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hyron/.gradle/caches/transforms-3/0542d6728b46e68abbf54a2196313713/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hyron/.gradle/caches/transforms-3/b6d006d7277797bfa785bc4db96d4ca8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hyron/.gradle/caches/transforms-3/b6d006d7277797bfa785bc4db96d4ca8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/hyron/.gradle/caches/transforms-3/33b66ad4eaa0aca726e7ddca46745793/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/hyron/.gradle/caches/transforms-3/33b66ad4eaa0aca726e7ddca46745793/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/hyron/.gradle/caches/transforms-3/26dd8c7b2918c91a90477f27c46ed157/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/hyron/.gradle/caches/transforms-3/26dd8c7b2918c91a90477f27c46ed157/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/hyron/.gradle/caches/transforms-3/46e2cf9ac4180ca80be7dec38e8ea2d7/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/hyron/.gradle/caches/transforms-3/46e2cf9ac4180ca80be7dec38e8ea2d7/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /home/hyron/.gradle/caches/transforms-3/4206b022f6dc9636f0dc8d4179782835/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/hyron/.gradle/caches/transforms-3/4206b022f6dc9636f0dc8d4179782835/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hyron/.gradle/caches/transforms-3/2b6762de07e03c070ebf363b2b18d6e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hyron/.gradle/caches/transforms-3/2b6762de07e03c070ebf363b2b18d6e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hyron/.gradle/caches/transforms-3/8aaf698ef722fffc402a63f7386dac05/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/hyron/.gradle/caches/transforms-3/8aaf698ef722fffc402a63f7386dac05/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hyron/.gradle/caches/transforms-3/8b331515101167231e0bf16b4827ee44/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/hyron/.gradle/caches/transforms-3/8b331515101167231e0bf16b4827ee44/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hyron/.gradle/caches/transforms-3/555236044442a6b601be96510848bd16/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/hyron/.gradle/caches/transforms-3/555236044442a6b601be96510848bd16/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hyron/.gradle/caches/transforms-3/241bf0b0fab43645c1b29a1cb6bf61c4/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/hyron/.gradle/caches/transforms-3/241bf0b0fab43645c1b29a1cb6bf61c4/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hyron/.gradle/caches/transforms-3/53a9e01678c3c123f98c3024a8032788/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/hyron/.gradle/caches/transforms-3/53a9e01678c3c123f98c3024a8032788/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hyron/.gradle/caches/transforms-3/e560ce8c3ecc8583efef93c2b780b83e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hyron/.gradle/caches/transforms-3/e560ce8c3ecc8583efef93c2b780b83e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hyron/.gradle/caches/transforms-3/98abd5e1b08e4a1aba52ed81ec385b8b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hyron/.gradle/caches/transforms-3/98abd5e1b08e4a1aba52ed81ec385b8b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hyron/.gradle/caches/transforms-3/a3069b0cb7bf77d0867ce0b7cd7f4984/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hyron/.gradle/caches/transforms-3/a3069b0cb7bf77d0867ce0b7cd7f4984/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hyron/.gradle/caches/transforms-3/084d9626b7e6e1bb6f4b7736011c1b83/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hyron/.gradle/caches/transforms-3/084d9626b7e6e1bb6f4b7736011c1b83/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hyron/.gradle/caches/transforms-3/745d99baf50ddb72427668d2b2309cb1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hyron/.gradle/caches/transforms-3/745d99baf50ddb72427668d2b2309cb1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hyron/.gradle/caches/transforms-3/631d61d77a0d44b4ef3c60fdb41226e3/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/hyron/.gradle/caches/transforms-3/631d61d77a0d44b4ef3c60fdb41226e3/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hyron/.gradle/caches/transforms-3/6acf815d725ba197ea9d80c20a79eab5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/hyron/.gradle/caches/transforms-3/6acf815d725ba197ea9d80c20a79eab5/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/hyron/.gradle/caches/transforms-3/5691d0ae1c15c0a3d80d2b0eb6309d33/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/hyron/.gradle/caches/transforms-3/5691d0ae1c15c0a3d80d2b0eb6309d33/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hyron/Desktop/UNI/CCODING/C++/object-recognizer-app/app/src/main/AndroidManifest.xml
