@@ -46,12 +46,17 @@ from credentials.serverCredentials import serverFolder
 @app.route('/' + serverFolder, methods=['GET', 'POST'])
 def root():
     if request.method == 'POST':
-        #Get the image from the client
-        with open(runFiles + 'received.jpg', 'wb') as f:
-            f.write(base64.b64decode(request.form['image64']))
+        try:
+            #Get the image from the client
+            with open(runFiles + 'received.jpg', 'wb') as f:
+                f.write(base64.b64decode(request.form['image64']))
 
-        #Call main function
-        string = main(runFiles + 'received.jpg')
+            #Call main function
+            string = main(runFiles + 'received.jpg')
+        except:
+            string = "liuchbweiufboewqbUYFGIUYFVYLHV9852379584723huyhfgd"
+
+
         return string
     else:
         return 'Hello, World!'
