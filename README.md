@@ -8,4 +8,4 @@
 ## How to Build:
 #### Go to the misc folder, download the apk and install the app on your phone. After intalation open the app and everythign should be working perfectly. This app can only be used on a android smartphone that has a working camara.
 ---
-## We appreciate your interest in our app there will be updates soon!
+## We appreciate your interest in our app, there will be updates soon!
